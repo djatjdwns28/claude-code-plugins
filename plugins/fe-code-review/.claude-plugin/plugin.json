@@ -1,0 +1,10 @@
+{
+  "name": "fe-code-review",
+  "version": "1.0.0",
+  "description": "프론트엔드 코드 리뷰 — 보안, 성능, 아키텍처, 컨벤션 체크",
+  "author": {
+    "name": "Frontend Team"
+  },
+  "repository": "https://github.com/djatjdwns28/claude-code-plugins",
+  "keywords": ["review", "frontend", "vue", "nuxt", "typescript"]
+}
