@@ -1,12 +1,12 @@
-# fe-team-plugins
+# claude-code-plugins
 
 프론트엔드 팀 공용 Claude Code 플러그인 마켓플레이스
 
 ## 설치 방법
 
 ```shell
-# 1. 마켓플레이스 추가
-/plugin marketplace add djatjdwns28/fe-team-plugins
+# 1. 마켓플레이스 추가 (GitHub 레포 이름)
+/plugin marketplace add djatjdwns28/claude-code-plugins
 
 # 2. 플러그인 설치 (한 번이면 모든 스킬 사용 가능)
 /plugin install fe-tools@fe-team-plugins
@@ -25,7 +25,7 @@
     "fe-team-plugins": {
       "source": {
         "source": "github",
-        "repo": "djatjdwns28/fe-team-plugins"
+        "repo": "djatjdwns28/claude-code-plugins"
       }
     }
   },
