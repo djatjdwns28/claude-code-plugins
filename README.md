@@ -39,20 +39,13 @@
 
 ### fe-tools 플러그인 (v1.0.0)
 
-| 스킬 | 사용법 | 설명 |
+| 스킬 | 트리거 | 설명 |
 |------|--------|------|
-| fe-code-review | `/fe-code-review` 또는 "코드 리뷰" | 보안/성능/아키텍처 관점 코드 리뷰 |
-
-> 향후 pr-create, qa-verify, scrum 등의 스킬이 추가될 예정입니다.
-
-### fe-code-review
-
-**주요 기능:**
-- 사전 자동 분석 (Security / Performance / Architecture)
-- 파일별 인터랙티브 리뷰
-- 3관점 전문가 평가
-- 리뷰 체크리스트 기반 검사
-- 개선 제안 및 참고 자료 제공
+| fe-code-review | "코드 리뷰", "code review" | 보안/성능/아키텍처 관점 파일별 인터랙티브 코드 리뷰 |
+| pr-create | "PR 올려줘", "PR 생성" | 변경사항 분석 -> PR 제목/본문 자동 생성 -> gh pr create |
+| pr-fix | "리뷰 반영", "review fix" | PR 리뷰 코멘트 수집 -> 선택적 수정 -> diff 확인 -> 커밋 |
+| component-gen | "컴포넌트 만들어 Button" | Vue/React 자동 감지, 팀 컨벤션 맞춤 보일러플레이트 생성 |
+| bundle-check | "번들 체크", "bundle check" | import 분석, 위험 패턴 감지, 번들 최적화 제안 |
 
 ## 업데이트
 

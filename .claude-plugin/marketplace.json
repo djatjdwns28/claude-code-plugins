@@ -12,7 +12,7 @@
       "name": "fe-tools",
       "source": "./plugins/fe-tools",
       "description": "프론트엔드 팀 공용 도구 모음 (코드 리뷰, PR, QA, 스크럼 등)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "development",
       "tags": ["frontend", "review", "pr", "qa", "scrum"]
     }
