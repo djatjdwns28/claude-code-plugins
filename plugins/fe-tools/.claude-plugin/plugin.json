@@ -1,0 +1,10 @@
+{
+  "name": "fe-tools",
+  "version": "1.0.0",
+  "description": "프론트엔드 팀 공용 도구 모음 — 코드 리뷰, PR, QA, 스크럼 등",
+  "author": {
+    "name": "Frontend Team"
+  },
+  "repository": "https://github.com/djatjdwns28/claude-code-plugins",
+  "keywords": ["frontend", "review", "pr", "qa", "scrum", "vue", "nuxt", "typescript"]
+}

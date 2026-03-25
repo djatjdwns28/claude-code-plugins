@@ -9,12 +9,12 @@
   },
   "plugins": [
     {
-      "name": "fe-code-review",
-      "source": "./plugins/fe-code-review",
-      "description": "프론트엔드 코드 리뷰 (보안, 성능, 아키텍처, 컨벤션)",
+      "name": "fe-tools",
+      "source": "./plugins/fe-tools",
+      "description": "프론트엔드 팀 공용 도구 모음 (코드 리뷰, PR, QA, 스크럼 등)",
       "version": "1.0.0",
-      "category": "code-quality",
-      "tags": ["review", "frontend", "vue", "nuxt", "typescript"]
+      "category": "development",
+      "tags": ["frontend", "review", "pr", "qa", "scrum"]
     }
   ]
 }

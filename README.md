@@ -8,8 +8,8 @@
 # 1. 마켓플레이스 추가
 /plugin marketplace add djatjdwns28/claude-code-plugins
 
-# 2. 플러그인 설치
-/plugin install fe-code-review@claude-code-plugins
+# 2. 플러그인 설치 (한 번이면 모든 스킬 사용 가능)
+/plugin install fe-tools@claude-code-plugins
 
 # 3. 현재 세션에 반영
 /reload-plugins
@@ -30,22 +30,22 @@
     }
   },
   "enabledPlugins": {
-    "fe-code-review@claude-code-plugins": true
+    "fe-tools@claude-code-plugins": true
   }
 }
 ```
 
-## 포함된 플러그인
+## 포함된 스킬
 
-### fe-code-review (v1.0.0)
+### fe-tools 플러그인 (v1.0.0)
 
-프론트엔드 코드 리뷰 스킬. 보안, 성능, 아키텍처 관점에서 코드를 분석합니다.
+| 스킬 | 사용법 | 설명 |
+|------|--------|------|
+| fe-code-review | `/fe-code-review` 또는 "코드 리뷰" | 보안/성능/아키텍처 관점 코드 리뷰 |
 
-**사용법:**
-```
-/fe-code-review
-코드 리뷰 시작해줘
-```
+> 향후 pr-create, qa-verify, scrum 등의 스킬이 추가될 예정입니다.
+
+### fe-code-review
 
 **주요 기능:**
 - 사전 자동 분석 (Security / Performance / Architecture)
@@ -58,6 +58,6 @@
 
 ```shell
 /plugin marketplace update claude-code-plugins
-/plugin update fe-code-review@claude-code-plugins
+/plugin update fe-tools@claude-code-plugins
 /reload-plugins
 ```
