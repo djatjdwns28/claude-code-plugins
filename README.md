@@ -54,3 +54,19 @@
 /plugin update fe-tools@fe-team-plugins
 /reload-plugins
 ```
+
+## 삭제
+
+```shell
+# 플러그인만 제거
+/plugin uninstall fe-tools@fe-team-plugins
+
+# 마켓플레이스 자체를 제거 (소속 플러그인도 함께 제거)
+/plugin marketplace remove fe-team-plugins
+```
+
+제거하지 않고 일시적으로 끄고 싶다면:
+```shell
+/plugin disable fe-tools@fe-team-plugins   # 비활성화
+/plugin enable fe-tools@fe-team-plugins    # 다시 활성화
+```
