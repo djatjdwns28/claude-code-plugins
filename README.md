@@ -1,4 +1,4 @@
-# claude-code-plugins
+# fe-team-plugins
 
 프론트엔드 팀 공용 Claude Code 플러그인 마켓플레이스
 
@@ -6,10 +6,10 @@
 
 ```shell
 # 1. 마켓플레이스 추가
-/plugin marketplace add djatjdwns28/claude-code-plugins
+/plugin marketplace add djatjdwns28/fe-team-plugins
 
 # 2. 플러그인 설치 (한 번이면 모든 스킬 사용 가능)
-/plugin install fe-tools@claude-code-plugins
+/plugin install fe-tools@fe-team-plugins
 
 # 3. 현재 세션에 반영
 /reload-plugins
@@ -22,15 +22,15 @@
 ```json
 {
   "extraKnownMarketplaces": {
-    "claude-code-plugins": {
+    "fe-team-plugins": {
       "source": {
         "source": "github",
-        "repo": "djatjdwns28/claude-code-plugins"
+        "repo": "djatjdwns28/fe-team-plugins"
       }
     }
   },
   "enabledPlugins": {
-    "fe-tools@claude-code-plugins": true
+    "fe-tools@fe-team-plugins": true
   }
 }
 ```
@@ -50,7 +50,7 @@
 ## 업데이트
 
 ```shell
-/plugin marketplace update claude-code-plugins
-/plugin update fe-tools@claude-code-plugins
+/plugin marketplace update fe-team-plugins
+/plugin update fe-tools@fe-team-plugins
 /reload-plugins
 ```
